@@ -4,7 +4,7 @@ import cv2
 import os
 
 
-# 遍历文件夹
+
 def getFileList(dir, Filelist, ext=None):
     """
 Get a list of files in a folder and its subfolders
