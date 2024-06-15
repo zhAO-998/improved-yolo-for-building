@@ -1,5 +1,5 @@
 # YOLOv5 common modules
-
+# when using, this file should be added to the YOLOv5 file:yolov5-5.0/models 
 import math
 from copy import copy
 from pathlib import Path
