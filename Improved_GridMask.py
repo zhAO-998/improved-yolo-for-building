@@ -7,10 +7,10 @@ import os
 # 遍历文件夹
 def getFileList(dir, Filelist, ext=None):
     """
-    获取文件夹及其子文件夹中文件列表
-    输入 dir：文件夹根目录
-    输入 ext: 扩展名
-    返回： 文件路径列表
+Get a list of files in a folder and its subfolders
+Enter dir: folder root directory
+Enter ext: extension
+Return: List of file paths
     """
     newDir = dir
     if os.path.isfile(dir):
@@ -28,7 +28,7 @@ def getFileList(dir, Filelist, ext=None):
     return Filelist
 
 
-org_img_folder = 'C:\\Users\\think\\Desktop\\111'
+org_img_folder = #Source path
 imglist = getFileList(org_img_folder, [], 'jpg')
 
 def xiugai(d, b, alpha, beta,imgpath):
@@ -60,8 +60,8 @@ x = []
 
 for imgpath in imglist:
     imgname = os.path.splitext(os.path.basename(imgpath))[0]
-    imgpath = "C:\\Users\\think\\Desktop\\111\\" + imgname + ".jpg"
-    imgpath2 = "C:\\Users\\think\\Desktop\\111\\" + imgname.strip(".jpg") +"_1" + ".jpg"
+    imgpath = #Source path
+    imgpath2 = #Save path
     y = random.randint(100,2500)
     gailv = random.randint(0, 20)
     c = a[y]
